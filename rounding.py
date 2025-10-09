@@ -23,7 +23,7 @@ print()
 # This even converts already existing data to different data types.
 
 x = round(2.55)
-print(x, type(x)) # Python converted the rounded number to integer type.
+print(x, type(x)) # Python stored the rounded number as an integer data type.
 
 x = round(2.55, 1)
 print(x, type(x)) # Python converted the rounded number into a float, which was previously an integer.
